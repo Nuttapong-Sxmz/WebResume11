@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume - Nuttapong Kongsabut</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f5f6fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2f3640;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    /* ======= Navigation Bar ======= */
+    nav {
+      background: #353b48;
+      display: flex;
+      justify-content: space-between; /* แยกซ้าย-ขวา */
+      align-items: center;
+      padding: 10px 40px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: #dcdde1;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00a8ff;
+    }
+
+    .lang-switch a {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #273c75;
+      margin-bottom: 15px;
+    }
+
+    .about, .skills, .portfolio, .contact {
+      margin-bottom: 40px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      padding: 5px 0;
+    }
+
+    .contact-info a {
+      color: #0097e6;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2f3640;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nuttapong Kongsabut</h1>
+    <p>Automation Engineer | PLC Programmer | Full Stack Learner</p>
+  </header>
+
+  <nav>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="lang-switch">
+      <a href="index.html">TH</a> | 
+      <a href="index-en.html">EN</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Welcome to my personal resume website. This site showcases my background, experience, technical skills, and projects in automation engineering and programming.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>My name is <b>Nuttapong Kongsabut</b>. I currently work at <b>Midea Rayong</b> as an Automation Engineer.  
+      I am responsible for PLC programming, robot maintenance (KUKA & Yaskawa), and machine troubleshooting.  
+      I am also learning <b>Full Stack Development</b> and web programming to expand my skills into the software field.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>PLC Programming (Mitsubishi R61P, GX Works)</li>
+      <li>Robot Maintenance (KUKA, Yaskawa)</li>
+      <li>HMI Design and Troubleshooting</li>
+      <li>HTML, CSS, JavaScript, Python (Basic)</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <p>Sample projects:</p>
+    <ul>
+      <li>KUKA Robot Pick & Place System</li>
+      <li>HMI Fault Display System</li>
+      <li>Machine Fault Report Web Template</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:nuttapong.k1598@gmail.com">nuttapong.k1598@gmail.com</a></p>  
+      <p>LinkedIn: <a href="#">linkedin.com/in/nuttapongk</a></p>
+      <p>GitHub: <a href="#">github.com/nuttapongk</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nuttapong Kongsabut | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
